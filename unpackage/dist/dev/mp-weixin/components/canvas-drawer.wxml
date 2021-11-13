@@ -1,0 +1,1 @@
+<view class="data-v-baca724a"><block wx:if="{{showCanvas}}"><canvas class="board data-v-baca724a" style="{{'width:'+(width+'px')+';'+('height:'+(height+'px')+';')}}" canvas-id="canvasdrawer"></canvas></block></view>

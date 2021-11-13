@@ -1,0 +1,24 @@
+
+.wlIcon-fanhui1{
+	margin-left: 20rpx !important;
+}
+.cu-list.grid.no-border{
+	padding: 25rpx;
+}
+.cu-list.grid.no-border>.cu-item {
+	padding: 25rpx 0;
+	align-items: center;
+}
+.cu-list.grid.no-border>.cu-item image{
+	width: 160rpx;
+	height: 160rpx;
+	margin-bottom: 10rpx;
+}
+.cu-custom .cu-bar{
+	z-index: 99;
+}
+.cu-bar .search-form{
+	margin: 0 0 0 25rpx;
+}
+
+

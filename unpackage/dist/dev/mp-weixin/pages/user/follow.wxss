@@ -1,0 +1,6 @@
+
+.cu-tag{
+	padding: 0 8rpx;
+	height: 36rpx;
+}
+

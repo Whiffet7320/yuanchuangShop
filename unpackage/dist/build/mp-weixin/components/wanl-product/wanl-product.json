@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wanl-product-wanl-waterfall-left": "/components/wanl-product/wanl-product-wanl-waterfall-left",
+    "wanl-product-wanl-waterfall-right": "/components/wanl-product/wanl-product-wanl-waterfall-right",
+    "wanl-waterfall": "/components/wanl-waterfall/wanl-waterfall"
+  }
+}

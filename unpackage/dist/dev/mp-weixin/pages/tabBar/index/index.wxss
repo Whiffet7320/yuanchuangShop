@@ -1,0 +1,107 @@
+
+.myNavv {
+	width: 702rpx;
+	height: 360rpx;
+	background: #ffffff;
+	border-radius: 20rpx;
+	margin-left: 24rpx;
+	padding: 24rpx;
+}
+.myNavv .nav1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.myNavv .nav1 .tit1 {
+	font-size: 28rpx;
+	font-weight: 700;
+	color: #000000;
+}
+.myNavv .nav1 .tit2 {
+	font-size: 28rpx;
+	font-weight: 400;
+	color: #aeaeae;
+}
+.myNavv .nav1 .tit2 .piccc1 {
+	width: 18rpx;
+	height: 18rpx;
+}
+.myNavv .navItems {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.myNavv .navItems .navItem {
+	margin-top: 20rpx;
+	width: 320rpx;
+	height: 116rpx;
+	background: #f8f8f8;
+	border-radius: 10rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20rpx;
+}
+.myNavv .navItems .navItem .left .txt1 {
+	font-size: 28rpx;
+	font-weight: 400;
+	color: #2e2e2e;
+}
+.myNavv .navItems .navItem .left .txt2 {
+	font-size: 24rpx;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 2rpx;
+}
+.myNavv .navItems .navItem .right {
+	width: 18rpx;
+	height: 18rpx;
+}
+
+/* .myNavv .navItems .navItem:nth-child(3){
+	margin-top: 20rpx;
+}
+.myNavv .navItems .navItem:nth-child(4){
+	margin-top: 20rpx;
+} */
+
+/*  */
+.cu-dialog {
+	width: 80%;
+	overflow: initial;
+	text-align: left;
+	border-radius: 25rpx;
+}
+.cu-dialog .hade {
+	position: relative;
+	width: 100%;
+	top: -128rpx;
+}
+.cu-dialog .hade .title {
+	position: relative;
+	top: -280rpx;
+	text-align: right;
+	padding-right: 50rpx;
+	overflow: hidden;
+	height: 110rpx;
+	margin-bottom: -110rpx;
+}
+.cu-dialog .hade .title>view {
+	font-size: 50rpx;
+}
+.cu-dialog .info {
+	position: relative;
+	display: block;
+	top: -170rpx;
+	margin: 0 30rpx -140rpx 30rpx;
+	line-height: 1.8;
+}
+.cu-bar .search-form {
+	background-color: rgba(242, 242, 242, 0.9);
+}
+.cu-bar .action:last-child {
+	margin-right: 0;
+}
+
+
+

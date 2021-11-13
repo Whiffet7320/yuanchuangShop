@@ -1,0 +1,8 @@
+
+.wanlpage-video{
+	overflow: hidden;
+}
+.wanlpage-video video{
+	width: 100%;
+}
+

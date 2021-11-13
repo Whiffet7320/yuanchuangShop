@@ -1,0 +1,267 @@
+{
+    "name" : "原创",
+    "appid" : "__UNI__547CF1E",
+    "description" : "",
+    "versionName" : "1.1.0",
+    "versionCode" : 113,
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
+            "autoclose" : false,
+            "delay" : 0
+        },
+        "modules" : {
+            "Payment" : {},
+            "Share" : {},
+            "Speech" : {},
+            "VideoPlayer" : {},
+            "OAuth" : {},
+            "Maps" : {},
+            "Webview-x5" : {},
+            "Push" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 1.0.3升级 热更新 添加权限REQUEST_INSTALL_PACKAGES 同时修改了 targetSdkVersion 为 26 以适配 Android 9.0 */
+            "android" : {
+                "packagename" : "com.wanlian.www",
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+                    "<uses-permission android:name=\"android.permission.INSTALL_PACKAGES\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ],
+                "targetSdkVersion" : "26",
+                "schemes" : "",
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "appid" : "com.wanlian.www",
+                "urlschemewhitelist" : [ "baidumap", "iosamap" ],
+                "idfa" : false,
+                "urltypes" : "",
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "APP需要您的同意，用于获取用户头像、商品评价、聊天中的图片信息",
+                    "NSPhotoLibraryAddUsageDescription" : "APP需要您的同意，用于上传用户头像、商品评价、聊天中的图片信息",
+                    "NSCameraUsageDescription" : "APP需要您的同意，才能访问相机进行拍摄商品信息，如禁止将无法拍照拍摄图片无法更新信息",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "APP需要您的同意，获得地理位置，为您更便捷购物",
+                    "NSMicrophoneUsageDescription" : "App需要您的同意，才能访问麦克风进行语音识别转换/录制音频，如禁止将无法识别语音转换/录制音频发送"
+                }
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "speech" : {
+                    "ifly" : {}
+                },
+                "ad" : {},
+                "payment" : {
+                    "weixin" : {
+                        "appid" : "wx3fe639f132bc8529",
+                        "UniversalLinks" : "https://scht.gycsc.com/"
+                    },
+                    "appleiap" : {},
+                    "alipay" : {}
+                },
+                "push" : {
+                    "unipush" : {}
+                },
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx3fe639f132bc8529",
+                        "appsecret" : "15c4d6c6649617a2eadc982cd4bd0811",
+                        "UniversalLinks" : "https://scht.gycsc.com/"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx3fe639f132bc8529",
+                        "UniversalLinks" : "https://scht.gycsc.com/"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "d8b84cf540bcca9928db69b0119fc152",
+                        "appkey_android" : "6c3f7522aab215e0704225adaad9f73e"
+                    }
+                }
+            },
+            "orientation" : [ "portrait-primary" ],
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "",
+                    "xxhdpi" : "",
+                    "xhdpi" : ""
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "",
+                        "landscape-896h@3x" : ""
+                    }
+                },
+                "androidStyle" : "common",
+                "iosStyle" : "common"
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        /* 不使用原生占位 http://ask.dcloud.net.cn/article/35564 */
+        "safearea" : {
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        "compilerVersion" : 3,
+        "nvueLaunchMode" : "fast",
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxbfb0522cb5ab87d6",
+        "setting" : {
+            "urlCheck" : true,
+            "es6" : true,
+            "minified" : true,
+            "postcss" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "演示定位能力"
+            }
+        },
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-qq" : {
+        "appid" : "11*****49",
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "setting" : {
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true,
+            "urlCheck" : true
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "商城需要获取当前位置，查询附近商品和完善购物地址"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true,
+        "appid" : "20**********76",
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "appid" : "",
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "appid" : "",
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "router" : {
+            "mode" : "hash",
+            "base" : "./"
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "V3JBZ-C7Z36-BL7S6-M67TX-6WORS-2TBMN"
+                }
+            }
+        },
+        "domain" : "https://m.wanlshop.com",
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "title" : "原创商城",
+        "uniStatistics" : {
+            "enable" : false
+        },
+        "devServer" : {
+            "https" : false
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false
+    }
+}

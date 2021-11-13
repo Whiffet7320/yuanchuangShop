@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" class="wanlpage-advert-image" bindtap="__e"><image style="{{$root.s0}}" src="{{$root.g0}}"></image></view>

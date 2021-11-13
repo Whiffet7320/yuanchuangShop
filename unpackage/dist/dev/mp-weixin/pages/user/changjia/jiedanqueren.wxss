@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.index.data-v-fa67f308 {
+  position: relative;
+}
+.myRadioGroup.data-v-fa67f308 {
+  display: flex;
+  align-items: center;
+}
+.myRadioGroup .myRadio.data-v-fa67f308 {
+  margin-right: 60rpx;
+  display: flex;
+  align-items: center;
+}
+.myRadioGroup .myRadio .myRadio-child.data-v-fa67f308 {
+  width: 30rpx;
+  height: 30rpx;
+  border: 1rpx solid #a1a1a1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myRadioGroup .myRadio .myRadio-child .choose.data-v-fa67f308 {
+  width: 18rpx;
+  height: 18rpx;
+  background: #fb6729;
+  border-radius: 50%;
+}
+.myRadioGroup .myRadio .txtRad.data-v-fa67f308 {
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #333333;
+  margin-left: 10rpx;
+}
+.data-v-fa67f308 .uni-radio-wrapper .uni-radio-input {
+  background-color: transparent;
+  width: 30rpx;
+  height: 30rpx;
+  border: 1rpx solid #a1a1a1 !important;
+}
+.data-v-fa67f308 uni-radio::before,
+uni-checkbox.data-v-fa67f308::before {
+  display: none;
+  content: '';
+}
+.data-v-fa67f308 .uni-radio-wrapper .uni-radio-input.uni-radio-input-checked {
+  background-color: rgba(0, 0, 0, 0) !important;
+  position: relative;
+}
+.data-v-fa67f308 .uni-radio-wrapper .uni-radio-input.uni-radio-input-checked::before {
+  display: inline-block;
+  content: '';
+  width: 18rpx;
+  height: 18rpx;
+  background: #fb6729;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.flex.data-v-fa67f308 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav1.data-v-fa67f308 {
+  background: #ffffff;
+  padding: 24rpx;
+  border-bottom: 2rpx solid #f8f8f8;
+}
+.nav1.data-v-fa67f308:nth-child(1) {
+  margin-top: 20rpx;
+}
+.nav1 .tit1.data-v-fa67f308 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+.nav1 .tit1 .txt1.data-v-fa67f308 {
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Bold;
+  font-weight: 700;
+  color: #333333;
+}
+.nav1 .tit1 .txt2.data-v-fa67f308 {
+  margin-left: 12rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #999999;
+}
+.nav1 .tit2.data-v-fa67f308 {
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #333333;
+}
+.nav2.data-v-fa67f308 {
+  background: #ffffff;
+  padding: 24rpx;
+  border-bottom: 2rpx solid #f8f8f8;
+}
+.nav2 .tit1.data-v-fa67f308 {
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Bold;
+  font-weight: 700;
+  color: #333333;
+}
+.nav2 .myradio.data-v-fa67f308 {
+  margin-right: 30rpx;
+}
+.nav2 .myradio uni-radio.data-v-fa67f308 {
+  -webkit-transform: translateY(-4rpx);
+          transform: translateY(-4rpx);
+}
+.nav2 .myradio .txtRad.data-v-fa67f308 {
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #333333;
+  margin-left: 16rpx;
+}
+.nav2 .inp.data-v-fa67f308 {
+  margin-top: 12rpx;
+  font-size: 28rpx;
+}
+.nav3.data-v-fa67f308 {
+  margin: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.nav3 .pic.data-v-fa67f308 {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+.nav3 .txt3.data-v-fa67f308 {
+  font-size: 20rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+}
+.nav3 .txt3 .yellow.data-v-fa67f308 {
+  color: #FB6729;
+}
+.footer.data-v-fa67f308 {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 140rpx;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0rpx 8rpx 28rpx 0rpx rgba(166, 179, 194, 0.3);
+}
+.footer .btn-footer.data-v-fa67f308 {
+  width: 702rpx;
+  height: 76rpx;
+  background: #fb6729;
+  border-radius: 38rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  line-height: 76rpx;
+}
+

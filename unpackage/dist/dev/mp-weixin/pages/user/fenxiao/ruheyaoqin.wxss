@@ -1,0 +1,62 @@
+
+page {
+	background: #f8f8f8;
+	height: 100%;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.nav.data-v-2464222b {
+  margin: 0 56rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nav .tit1-1.data-v-2464222b {
+  font-size: 32rpx;
+  font-family: PingFang SC, PingFang SC-Heavy;
+  font-weight: 800;
+  text-align: center;
+  color: #333333;
+  position: relative;
+}
+.nav .tit1-1.data-v-2464222b:after {
+  content: '';
+  position: absolute;
+  bottom: -4rpx;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 14rpx;
+  background-color: #fed4c3;
+}
+.nav .tit1-2.data-v-2464222b {
+  margin-top: 40rpx;
+  margin-bottom: 24rpx;
+  white-space: pre-wrap;
+  width: 640rpx;
+}
+.nav .pic1-1.data-v-2464222b {
+  width: 640rpx;
+  height: 174rpx;
+}
+.nav1.data-v-2464222b {
+  margin-top: 76rpx;
+}
+.nav2.data-v-2464222b {
+  margin-top: 90rpx;
+}
+.nav3.data-v-2464222b {
+  margin-top: 90rpx;
+  padding-bottom: 56rpx;
+}
+.nav3 .pic1-3.data-v-2464222b {
+  width: 640rpx;
+  height: 430rpx;
+}
+

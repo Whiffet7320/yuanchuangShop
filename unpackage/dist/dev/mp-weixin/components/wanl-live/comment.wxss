@@ -1,0 +1,110 @@
+
+.wanl-live-operator.data-v-5bf3e094{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.wanl-live-coming.data-v-5bf3e094{
+		margin-left: 25rpx;
+		background-color: rgba(255,86,136,.7);
+		padding-top: 8rpx;
+		padding-right: 16rpx;
+		padding-bottom: 8rpx;
+		padding-left: 16rpx;
+		border-radius: 10rpx;
+}
+.wanl-live-coming-text.data-v-5bf3e094{
+			color: #ffffff;
+			font-size: 28rpx;
+}
+.wanl-live-comment.data-v-5bf3e094{
+
+		-webkit-mask: -webkit-gradient(linear,left 30%,left top,from(#000),to(transparent));
+
+		margin-left: 25rpx;
+		flex-direction: row;
+		position: relative;
+}
+.wanl-live-comment-empty.data-v-5bf3e094{
+			flex: 1;
+}
+.wanl-live-comment-item.data-v-5bf3e094{
+			flex: 2;
+			overflow: hidden;
+			color: #FFFFFF;
+}
+.wanl-live-comment-item-scroll.data-v-5bf3e094{
+
+				max-height: 500rpx;
+				min-height: 60rpx;
+}
+.wanl-live-comment-item-scroll-h5.data-v-5bf3e094{
+				margin-top: 6rpx;
+				overflow: hidden;
+				display: flex;
+}
+.wanl-live-comment-item-scroll-mp.data-v-5bf3e094{
+				margin-bottom: 6rpx;
+				overflow: hidden; 
+				display: block;
+}
+.wanl-live-comment-item-tag.data-v-5bf3e094{
+					background-color: rgba(0,0,0,.2);
+					padding-top: 8rpx;
+					padding-right: 16rpx;
+					padding-bottom: 8rpx;
+					padding-left: 16rpx;
+					border-radius: 10rpx;
+					overflow: hidden;
+					display: inline-block;
+}
+.wanl-live-comment-item-scroll-app.data-v-5bf3e094{
+				flex-direction: row;
+				margin-top: 6rpx;
+}
+.wanl-live-comment-item-scroll-app-item.data-v-5bf3e094{
+					background-color: rgba(0,0,0,.2); 
+					padding-top: 8rpx;
+					padding-right: 16rpx;
+					padding-bottom: 8rpx;
+					padding-left: 16rpx;
+					border-radius: 10rpx;
+					flex-direction: row;
+}
+.app-text.data-v-5bf3e094{
+		font-size: 29rpx;
+}
+.app-context.data-v-5bf3e094{
+		font-size: 29rpx;
+		color: #ffffff;
+}
+.mph5-text.data-v-5bf3e094{
+		font-size: 26rpx;
+}
+.mph5-context.data-v-5bf3e094{
+		font-size: 26rpx;
+		color: #ffffff;
+}
+.text-white.data-v-5bf3e094{
+	color: #ffffff;
+}
+.text-orange.data-v-5bf3e094{
+	color: #f56f23;
+}
+.text-yellow.data-v-5bf3e094{
+	color: #ffee8a;
+}
+.text-olive.data-v-5bf3e094{
+	color: #7ed321;
+}
+.text-green.data-v-5bf3e094{
+	color: #50e3c2;
+}
+.text-purple.data-v-5bf3e094{
+	color: #9134fc;
+}
+.text-pink.data-v-5bf3e094{
+	color: #ff9fbf;
+}
+

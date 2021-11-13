@@ -1,0 +1,1 @@
+<view><view class="edgeInsetTop"></view><wanl-empty vue-id="7f849300-1" text="没有找到任何砍价订单" bind:__l="__l"></wanl-empty></view>

@@ -1,0 +1,11 @@
+
+page {
+	background: #ffffff;
+}
+.cu-custom .search-form{
+	border: 3rpx solid #fe6600;
+	background-color: #fff;
+	margin-left: 0;
+	margin-right: 25rpx;
+}
+

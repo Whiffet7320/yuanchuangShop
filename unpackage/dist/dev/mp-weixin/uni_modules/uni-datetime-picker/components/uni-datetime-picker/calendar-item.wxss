@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.uni-calendar-item__weeks-box.data-v-39ec3f8e {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3px 0;
+}
+.uni-calendar-item__weeks-box-text.data-v-39ec3f8e {
+  font-size: 12px;
+}
+.uni-calendar-item__weeks-lunar-text.data-v-39ec3f8e {
+  font-size: 24rpx;
+  color: #333;
+}
+.uni-calendar-item__weeks-box-item.data-v-39ec3f8e {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.uni-calendar-item__weeks-box-circle.data-v-39ec3f8e {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #dd524d;
+}
+.uni-calendar-item__weeks-box .uni-calendar-item--disable.data-v-39ec3f8e {
+  color: #c0c0c0;
+  cursor: default;
+}
+.uni-calendar-item__weeks-box .uni-calendar-item--isDay-text.data-v-39ec3f8e {
+  color: #fa436a;
+}
+.uni-calendar-item--isDay.data-v-39ec3f8e {
+  background-color: #fa436a;
+  opacity: 0.8;
+  color: #fff;
+}
+.uni-calendar-item--extra.data-v-39ec3f8e {
+  color: #dd524d;
+  opacity: 0.8;
+}
+.uni-calendar-item__weeks-box .uni-calendar-item--checked.data-v-39ec3f8e {
+  background-color: #fa436a;
+  box-sizing: border-box;
+  border: 6px solid #f2f6fc;
+  color: #fff;
+  opacity: 0.8;
+}
+.uni-calendar-item--multiple .uni-calendar-item--checked-range-text.data-v-39ec3f8e {
+  color: #333;
+}
+.uni-calendar-item--multiple.data-v-39ec3f8e {
+  background-color: #f2f6fc;
+  opacity: 0.8;
+}
+.uni-calendar-item--multiple .uni-calendar-item--before-checked.data-v-39ec3f8e {
+  background-color: #409eff;
+  color: #fff !important;
+  box-sizing: border-box;
+  border: 6px solid #f2f6fc;
+}
+.uni-calendar-item--multiple .uni-calendar-item--after-checked.data-v-39ec3f8e {
+  background-color: #409eff;
+  color: #fff !important;
+  box-sizing: border-box;
+  border: 6px solid #f2f6fc;
+}
+.uni-calendar-item--before-checked-x.data-v-39ec3f8e {
+  background-color: #f2f6fc;
+}
+.uni-calendar-item--after-checked-x.data-v-39ec3f8e {
+  background-color: #f2f6fc;
+}
+

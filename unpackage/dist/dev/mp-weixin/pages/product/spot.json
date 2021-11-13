@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "现货区",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "wanl-empty": "/components/wanl-empty/wanl-empty",
+    "wanl-product": "/components/wanl-product/wanl-product",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="index"><uni-steps vue-id="5e49472b-1" options="{{list}}" direction="column" active="{{length}}" bind:__l="__l"></uni-steps></view>

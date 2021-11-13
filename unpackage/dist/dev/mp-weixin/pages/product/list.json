@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "wanl-empty": "/components/wanl-empty/wanl-empty",
+    "wanl-divider": "/components/wanl-divider/wanl-divider",
+    "wanl-product": "/components/wanl-product/wanl-product",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

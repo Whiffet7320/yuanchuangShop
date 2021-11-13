@@ -1,0 +1,25 @@
+
+.cu-btn[disabled] {
+    opacity: 1;
+    color: #ffffff;
+	background: #fe660059;
+}
+.wanlian.cu-bar.tabbar {
+	background-color: transparent;
+}
+.wanlian.cu-bar.tabbar .cu-btn {
+	width: calc(100% - 50rpx);
+}
+.wanlian.cu-bar.tabbar .cu-btn.lg {
+	font-size: 32rpx;
+	height: 86rpx;
+}
+.cu-form-group .title, .cu-form-group uni-input{
+	font-size: 28rpx;
+}
+.cu-avatar image{
+	width: 64rpx;
+	height: 64rpx;
+}
+
+

@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/product/spot",
+          "pathName": "pages/product/spot",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "投诉举报（添加图片）",
+          "pathName": "pages/user/complaint/complaint",
+          "query": "id=71&type=2",
+          "scene": null
+        },
+        {
+          "name": "我的推广",
+          "pathName": "pages/user/fenxiao/wodetuiguang",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/caigoushang/faburenwu",
+          "pathName": "pages/user/caigoushang/faburenwu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/caigoushang/renwuxiangqin",
+          "pathName": "pages/user/caigoushang/renwuxiangqin",
+          "query": "id=13",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

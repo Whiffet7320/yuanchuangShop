@@ -1,0 +1,88 @@
+
+.listbox scroll-view{
+	height: 560rpx;
+}
+.wanl-modal {
+	padding-bottom: 125rpx !important;
+}
+.wanl-modal .foot{
+	text-align: left;
+	padding: 0 25rpx;
+	height: 100rpx !important;
+	background-color: #f2f2f2;
+}
+.input{
+	width: calc(100% - 70rpx);
+}
+.wanl-modal .foot input{
+	background-color: #fff;
+	height: 70rpx;
+	padding: 0 25rpx;
+	border-radius: 10rpx;
+}
+.wanl-find .content .calendar{
+	width: 50rpx;
+	height: 50rpx;
+	line-height: 60rpx;
+	background-size: 100%;
+	font-size: 22rpx;
+	font-weight: 600;
+}
+.cu-custom .cu-bar .content {
+    width: calc(100% - 450rpx);
+}
+.cu-custom .userinfo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cu-custom .userinfo .cu-avatar{
+	flex-shrink: 0;
+	width: 56rpx;
+	height: 56rpx;
+	overflow: hidden;
+	border-radius: 1000px;
+	margin: 0 !important;
+}
+.swiper-box {
+	position: relative;
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 100vw;
+}
+.swiper-box swiper {
+	width: 100%;
+	height: 100vw;
+}
+.swiper-box swiper swiper-item image {
+	width: 100%;
+	height: 100vw;
+}
+.swiper-box .indicator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 25rpx;
+	height: 40rpx;
+	border-radius: 40rpx;
+	font-size: 22rpx;
+	position: absolute;
+	bottom: 20rpx;
+	right: 20rpx;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.wanl-find .scroll-view-item .img{
+	margin: 0 10rpx;
+}
+.wanl-find .scroll-view-item .img,
+.wanl-find .scroll-view-item .img image
+{
+	height: 80rpx;
+	width: 80rpx;
+	border-radius: 18rpx;
+}
+.scroll-view-item .goodsinfo{
+	line-height: 1.2;
+}
+

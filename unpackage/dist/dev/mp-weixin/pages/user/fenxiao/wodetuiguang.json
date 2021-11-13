@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的推广",
+  "usingComponents": {
+    "pop": "/components/ming-pop/ming-pop",
+    "canvas-drawer": "/components/canvas-drawer"
+  }
+}

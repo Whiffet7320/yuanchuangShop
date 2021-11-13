@@ -1,0 +1,9 @@
+
+.wanlpage-menu .picicon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5000rpx;
+	border: 1px solid rgba(255, 255, 255, .3);
+}
+

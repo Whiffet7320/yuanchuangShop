@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/wanl-live/header"],{"5eaa":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={name:"wanlLiveHeader",props:{statusBarHeight:{default:0},online:{type:Number,default:0},state:{default:0},isFollow:{type:Boolean,default:!1},userinfo:{type:Object,default:function(){return{}}}},methods:{shopLike:function(){this.$emit("change")},liveBack:function(){t.navigateBack({delta:1})},toShop:function(n){t.navigateTo({url:"/pages/shop/shop?id=".concat(n)})},stcOss:function(t){var n=this.$store.state.common.appUrl.oss,e="";return e=t?/^(http|https):\/\/.+/.test(t)?t:n+t:n+"/assets/addons/wanlshop/img/common/img_default3x.png",e},numFormat:function(t){return t>9999?(t-t%1e3)/1e4+"万":t}}};n.default=e}).call(this,e("543d")["default"])},"9afb":function(t,n,e){"use strict";var a;e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return u})),e.d(n,"a",(function(){return a}));var o=function(){var t=this,n=t.$createElement,e=(t._self._c,t.stcOss(t.userinfo.avatar)),a=t.numFormat(t.online);t.$mp.data=Object.assign({},{$root:{m0:e,m1:a}})},u=[]},bff9:function(t,n,e){"use strict";e.r(n);var a=e("9afb"),o=e("f331");for(var u in o)"default"!==u&&function(t){e.d(n,t,(function(){return o[t]}))}(u);e("db0e");var r,s=e("f0c5"),c=Object(s["a"])(o["default"],a["b"],a["c"],!1,null,"6c714d99",null,!1,a["a"],r);n["default"]=c.exports},cd04:function(t,n,e){},db0e:function(t,n,e){"use strict";var a=e("cd04"),o=e.n(a);o.a},f331:function(t,n,e){"use strict";e.r(n);var a=e("5eaa"),o=e.n(a);for(var u in a)"default"!==u&&function(t){e.d(n,t,(function(){return a[t]}))}(u);n["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/wanl-live/header-create-component',
+    {
+        'components/wanl-live/header-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("bff9"))
+        })
+    },
+    [['components/wanl-live/header-create-component']]
+]);

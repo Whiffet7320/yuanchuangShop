@@ -1,0 +1,55 @@
+
+.wanl-guide {
+	position: relative;
+}
+.wanl-guide swiper-item .title {
+	margin-bottom: 40rpx;
+	line-height: 1.4;
+	color: rgba(255, 255, 255, 0.8);
+}
+.wanl-guide swiper-item .title > view {
+	font-size: 62rpx;
+}
+.wanl-guide swiper-item .title > text {
+	font-size: 32rpx;
+	font-weight: 300;
+}
+.wanl-guide swiper-item image {
+	height: 71%;
+}
+.wanl-guide .button {
+	position: absolute;
+
+	left: 25rpx;
+}
+.wanl-guide .button .cu-btn{
+	padding: 0 25rpx;
+    font-size: 28rpx;
+    height: 56rpx;
+	background-color: rgba(0,0,0,.2);
+	color: rgba(255,255,255,.6);
+}
+.wanl-guide .experience {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100rpx;
+	display: flex;
+	justify-content: center;
+}
+.wanl-guide .indicator {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 120rpx;
+	display: flex;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+.cu-btn.lg{
+	font-size: 30rpx;
+}
+.cu-btn:not([class*="bg-"]){
+	background-color: rgba(255,255,255,.5);
+}
+
